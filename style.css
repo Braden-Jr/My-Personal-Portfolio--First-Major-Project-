@@ -18,6 +18,13 @@
   opacity: 110%;
 }
 
+#Subject-2-R {
+  font-family: 'Alegreya Sans' , sans-serif;
+  margin-top: 4%;
+  opacity: 110%;
+  margin-bottom: 25pxpx;
+}
+
 #Subject-3 {
   font-family: 'Alegreya Sans' , sans-serif;
   color: #EDEDED;
@@ -328,6 +335,19 @@
   .about .content p:last-child {
     margin-bottom: 0;
   }
+
+  #button-cv {
+    background: #DA0037;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px
+  }
+
+  #button-cv:hover {
+    background: #eb4b73;
+  }
 /*Skiils*/
 
 .skills {
@@ -360,6 +380,8 @@
     margin-top: -2px;
     border-left: 2px solid #DA0037;
     position: relative;
+    font-family: 'Hind Siliguri';
+    font-size: 20px;
   }
   
   .resume .resume-item h4 {
